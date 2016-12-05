@@ -1,0 +1,118 @@
+nav, div, content, section, span, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "europa", sans-serif;
+	color: #111;
+}
+
+body {
+	background-color: #f8f8f8
+}
+
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*border-bottom: 1px solid lightgrey;*/
+	margin-top: 28px;
+	padding-bottom: 2px;
+	padding-right: 5vw;
+	padding-left: 5vw;
+}
+
+.link-container {
+/*	margin-left: 2vw;
+	margin-right: 2vw;*/
+}
+
+.link-text {
+	color: #aaa;
+	cursor: pointer;
+}
+
+.link-text:hover {
+	color: #111;
+}
+
+.nav-name {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0em;
+
+}
+
+
+.title-blurb {
+	margin-top: 18vh;
+	margin-bottom: 28vh;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50vw
+}
+
+.blurb {
+	font-size: 3.3333vw;
+	font-weight: 700;
+}
+
+/*Individual Projects*/
+.main-content {
+	padding-right: 5vw;
+	padding-left: 5vw; 
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.project-content {
+	position: relative;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 70vh;
+	cursor: pointer;
+	margin-bottom: 15vh;
+}
+
+.project-overlay {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.project-content:hover .project-image {
+	opacity: 0.5;
+	transition: opacity 0.25s ease-in;
+}
+
+.project-overlay:hover {
+	opacity: 1;
+	transition: opacity 0.25s ease-in;
+	/*background-color: white;*/
+}
+
+.project-name {
+	font-size: 2.3vw;
+	font-weight: 700;
+	color: #E5E5E5;
+	/*cursor: pointer;*/
+}
+
+.found-sounds {
+	background-color: #FE7163;	
+}	
+
+.katamari {
+	/*background-color: #1A232D;*/
+	background-image: url("https://res.cloudinary.com/ddvdi1pie/image/upload/v1480903150/stardust_ykzatf.png") ;
+}
