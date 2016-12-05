@@ -64,6 +64,7 @@ body {
 	clear: both;
 	content: "";
 	display: block;
+
 }
 
 .project-content {
@@ -75,7 +76,6 @@ body {
 	width: 50%;
 	height: 70vh;
 	cursor: pointer;
-	margin-bottom: 15vh;
 }
 
 .project-overlay {
@@ -109,10 +109,20 @@ body {
 }
 
 .found-sounds {
-	background-color: #FE7163;	
+	background-color: #4591D3;
+	/*#FE7163;	*/
 }	
 
 .katamari {
 	/*background-color: #1A232D;*/
+		width: 100%;
 	background-image: url("https://res.cloudinary.com/ddvdi1pie/image/upload/v1480903150/stardust_ykzatf.png") ;
+		margin-bottom: 15vh;
 }
+
+.airdng {
+	/*background-color: #1A232D;*/
+	background-color: #ff5a5f;
+
+}
+
