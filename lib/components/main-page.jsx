@@ -24,6 +24,9 @@ const MainPage = () => {
 					<span className="project-name">
 						Found Sounds
 					</span>
+					<span className="front-project-description">
+						find local Bay Area concerts
+					</span>
 				</div>
 			</a>
 			<a className="project-content airdng"
@@ -35,6 +38,9 @@ const MainPage = () => {
 					<span className="project-name">
 						AirDnG
 					</span>
+					<span className="front-project-description">
+						metrics for AirBnB listings
+					</span>
 				</div>
 			</a>
 			<a className="project-content katamari" href="http://www.alexandersmanning.com/katamari" target="_blank">
@@ -44,6 +50,9 @@ const MainPage = () => {
 				<div className="project-overlay">
 					<span className="project-name">
 						Katamari
+					</span>
+					<span className="front-project-description">
+						a calming, yet challenging, browser game
 					</span>
 				</div>
 			</a>

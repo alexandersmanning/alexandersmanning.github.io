@@ -12,7 +12,23 @@ const FoundSounds = () => {
 				</span>
 			</section>
 			<section className="project-description">
-
+				<section className="small-blurb-container">
+					<span className="small-blurb">
+						Visualizing concerts through Google Maps
+					</span>
+					<img className='blurb-image' src=""/>
+					<p className="blurb-info-paragraph">
+						Google Maps API is used to provide a visual represenatation of where concerts are in the area. As the bounds of the map change or date ranges are added, the markers on the map will instantaneously update.
+					</p>
+				</section>
+				<span className="small-blurb">
+						Venue and Show Information
+					</span>
+					<img className='blurb-image' src=""/>
+					<p className="blurb-info-paragraph">
+						Users have the ability to see all shows for a venue by clicking on a specific map marker.
+					</p>
+				</section>
 			</section>
 		</content>
 	)

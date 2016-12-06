@@ -7,7 +7,7 @@ const NavBar = ({router}) => {
 	let about = (path.indexOf("about") > 0 ? " selected" : "")
 
 	return (
-		<nav className={"nav-container"}>
+		<nav className="nav-container">
 			<div className="link-container"
 					 onClick={() => {
 					 	router.push("/")
@@ -23,8 +23,23 @@ const NavBar = ({router}) => {
 					 }}
 			>
 				<span className={"link-text" + about}>About</span>
-			</div>
+			</div>	
 		</nav>)
 };
 
 export default withRouter(NavBar);
+
+		 // <ul className="hamburger-dropdown">
+   //      <li>
+   //      <ul>
+   //        <li><a onClick={() => {
+			// 		 	router.push("/")
+			// 		 		}}>Main
+			// 		 </a></li>
+   //        <li><a onClick={() => {
+			// 		 	router.push("/about")
+			// 		 		}}>About
+			// 		 </a></li>
+   //      </ul>
+   //      </li>
+   //    </ul>

@@ -1,9 +1,10 @@
-nav, div, content, section, span, h1, h2, h3, h4 {
+nav, div, content, section, span, h1, h2, h3, h4, li, ul {
 	margin: 0;
 	padding: 0;
 	font-size: 15px;
 	font-family: "europa", sans-serif;
 	color: #111;
+	list-style: none;
 }
 
 body {
@@ -40,6 +41,7 @@ body {
 .link-text {
 	color: #aaa;
 	cursor: pointer;
+	font-size: 2vh;
 }
 
 .selected {
@@ -52,7 +54,7 @@ body {
 }
 
 .nav-name {
-	font-size: 20px;
+	font-size: 2.5vh;
 	font-weight: 700;
 	letter-spacing: 0em;
 
@@ -104,6 +106,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	opacity: 0;
 	top: 0;
 	left: 0;
@@ -123,10 +126,16 @@ body {
 }
 
 .project-name {
-	font-size: 2.3vw;
+	font-size: 3.2vh;
 	font-weight: 700;
 	color: #E5E5E5;
 	/*cursor: pointer;*/
+}
+
+.front-project-description {
+	font-size: 2.3vh;
+	font-weight: 700;
+	color:  #E5E5E5;
 }
 
 .found-sounds {
@@ -161,19 +170,21 @@ body {
 }
 
 .small-blurb {
-	font-size: 30px;
+	font-size: 3vh;
 	font-weight: 700;
+	display: block;
+	line-height: 1.3em;
 }
 
 .name-title {
-	font-size: 30px;
+	font-size: 3vh;
 	font-weight: 700;
 	text-align: center;
 }
 
 .about-info-paragraph {
 	text-align: left;
-	font-size: 16px;
+	font-size: 2.2vh;
 	line-height: 2em;
 	color: #aaa;
 }
@@ -206,11 +217,11 @@ body {
 .about-image {
 	margin: 40px;
 }
-/*.link-group {
-	display: flex;
-	justify-content: space-around;
+
+.hamburger-dropdown {
+	display: none;
 }
-*/
+
 @media all and (max-width: 1000px) {
 	.project-content {
 		width: 100%;
@@ -220,16 +231,56 @@ body {
 		max-width: 70vw;
 	}
 
+	.nav-name {
+		/*font-size: 35px;*/
+		font-size: 2.5vh;
+	}
 
 	.blurb {
 		font-size: 5vh;
 		letter-spacing: 0em
 	}
 
-	.small-blurb {
-	/*	font-size: 3.333vh;
-		letter-spacing: 0em*/
-	}
+	/*.link-container {
+		display: none;
+	}*/
+
+	.hamburger-dropdown {
+    display: block;
+  }
+  .hamburger-dropdown > li {
+    background: url(https://res.cloudinary.com/ddvdi1pie/image/upload/c_scale,w_64/v1481048620/menu-alt-512_jrmgxx.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    /* nearest relatively positioned parent of absolute positioned child */
+    position: relative;
+    cursor: pointer;
+  }
+  .hamburger-dropdown ul {
+    /* Every time we position an element absolutely we should be thinking about
+    which parent element we need to position relatively */
+    position: absolute;
+    top: 0;
+  	left: 0;
+    bottom: 0;
+    right: 0;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: black 5px 5px 10px;
+  }
+
+  /* This is how we create pure css dropdown effects. No JS required. */
+  .hamburger-dropdown:hover ul {
+    display: flex;
+    background: ghostwhite;
+  }
+
+  .hamburger-dropdown ul li:hover a {
+    text-decoration: underline;
+  }
+
 }
 
 
