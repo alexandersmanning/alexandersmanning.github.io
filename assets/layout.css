@@ -202,6 +202,10 @@ body {
 .contact-image {
 	margin: 2em;
 }
+
+.about-image {
+	margin: 40px;
+}
 /*.link-group {
 	display: flex;
 	justify-content: space-around;
