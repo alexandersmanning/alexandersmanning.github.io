@@ -30,7 +30,7 @@ const AboutPage = () => {
 							<a className="contact-link" href="https://github.com/alexandersmanning" target="_blank" >
 								<img className="contact-image" src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1481004816/github-logo_avulo9.png" alt="Github"/>
 							</a>
-							<a className="contact-link" href="https://angel.co/alex-manning-2" target="_blank" >
+							<a className="contact-link" href="https://angel.co/alexandersmanning" target="_blank" >
 								<img className="contact-image" src="https://res.cloudinary.com/ddvdi1pie/image/upload/c_scale,w_64/v1481006209/69-angellist-128_hai6eu.png" alt="Angel List"/>
 							</a>
 							<a className="contact-link" href="https://www.linkedin.com/in/alexandersmanning/" target="_blank" >
