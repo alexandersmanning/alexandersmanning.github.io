@@ -138,8 +138,13 @@ body {
 	color:  #E5E5E5;
 }
 
+.dark {
+	color: #4591D3;
+}
+
 .found-sounds {
 	background-color: #4591D3;
+	width: 100%;
 	/*#FE7163;	*/
 }	
 
@@ -152,8 +157,14 @@ body {
 
 .airdng {
 	/*background-color: #1A232D;*/
-	background-color: #ff5a5f;
+	/*background-color: #ff8177;*/
+	background-color: #FFFFFF;
 }
+
+.readmore {
+	background-color: #FFFDD0;
+	/*#FE7163;	*/
+}	
 
 .about-page {
 	position: relative;
@@ -225,7 +236,7 @@ body {
 @media all and (max-width: 1000px) {
 	.project-content {
 		width: 100%;
-		height: 50vw
+		height: 60vw
 	}
 	.title-blurb {
 		max-width: 70vw;

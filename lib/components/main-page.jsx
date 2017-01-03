@@ -32,14 +32,28 @@ const MainPage = () => {
 			<a className="project-content airdng"
 				href="http://www.alexandersmanning.com/AirDnG" target="_blank">
 				 <img className="project-image" 
-									src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1480917169/network_3_hctzry.png"
+									src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1483473944/network_4_n1uyey.png"
 						/>
 				<div className="project-overlay">
-					<span className="project-name">
+					<span className="project-name dark">
 						AirDnG
 					</span>
-					<span className="front-project-description">
+					<span className="front-project-description dark">
 						metrics for AirBnB listings
+					</span>
+				</div>
+			</a>
+			<a className="project-content readmore"
+				href="https://www.npmjs.com/package/read-more-react" target="_blank">
+				 <img className="project-image" 
+									src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1483472785/notebook_1_ethiae.png"
+						/>
+				<div className="project-overlay">
+					<span className="project-name dark">
+						Read More + React
+					</span>
+					<span className="front-project-description dark">
+						NPM Package to Intelligenty Truncate Text
 					</span>
 				</div>
 			</a>
