@@ -53,7 +53,7 @@ const MainPage = () => {
 						Read More + React
 					</span>
 					<span className="front-project-description dark">
-						NPM Package to Intelligenty Truncate Text
+						NPM package to intelligenty truncate text
 					</span>
 				</div>
 			</a>

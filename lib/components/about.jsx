@@ -5,9 +5,11 @@ const AboutPage = () => {
 	return (
 			<content className="about-page">
 				<section className="small-blurb-container">
-					<span className="small-blurb">
+					<span className="blurb">
 						Full stack web developer and engineer. Passionate about data, processes, and efficiency. Bagel connoisseur.
 					</span>
+				</section>
+				<section className="image-container">
 					<img className='about-image' src="http://res.cloudinary.com/ddvdi1pie/image/upload/v1481006493/Manning_fodipl.jpg"/>
 				</section>
 				<content className="main-content-about">
@@ -19,7 +21,7 @@ const AboutPage = () => {
 						After 6 years of analyzing manufacturing data and managing numerous internal development projects, I realized I wanted to be on the other side of the conversation and create my own applications. Over the past year I have studied on my own and attended full time courses to make this dream a reality.
 					</p>
 					<p className="about-info-paragraph">
-						As a developer I have worked on projects that touch on subjects I care deeply about, including music and statistics. Through Found Sounds, I created an application where users could easily find upcoming concerts near them. Katamari provides an ever changing audiovisual experience, where ambient sounds are randomized through the collision of the balls. Finally, in AirDnG, I applied my passion for data visualization to an analysis of AirBnB's listings for San Francisco. 
+						As a developer I have worked on projects that touch on subjects I care deeply about, including music and statistics. Through <a href="http://www.foundsounds.live">Found Sounds</a>, I created an application where users could easily find upcoming concerts near them. Katamari provides an ever changing audiovisual experience, where ambient sounds are randomized through the collision of the balls. Finally, in <a href="http://www.alexandersmanning.com/AirDnG/">AirDnG</a>, I applied my passion for data visualization to an analysis of AirBnB's listings for San Francisco. 
 					</p>
 					<p className="about-info-paragraph">
 						I am currently looking for a Junior Developer position where I can apply my programming skills to any and all problems that can be thrown at me.

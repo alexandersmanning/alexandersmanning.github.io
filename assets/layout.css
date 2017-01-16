@@ -172,12 +172,12 @@ body {
 }
 
 .small-blurb-container {
-	margin-top: 0;
-	margin-bottom: 25px;
+	margin-top: 14vh;
+	margin-bottom: 12vh;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 60vw;
+	max-width: 50vw
 }
 
 .small-blurb {
@@ -223,6 +223,11 @@ body {
 
 .contact-image {
 	margin: 2em;
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
 }
 
 .about-image {
