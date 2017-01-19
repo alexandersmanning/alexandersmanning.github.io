@@ -24,13 +24,16 @@ const AboutPage = () => {
 						As a developer I have worked on projects that touch on subjects I care deeply about, including music and statistics. Through <a href="http://www.foundsounds.live">Found Sounds</a>, I created an application where users could easily find upcoming concerts near them. Katamari provides an ever changing audiovisual experience, where ambient sounds are randomized through the collision of the balls. Finally, in <a href="http://www.alexandersmanning.com/AirDnG/">AirDnG</a>, I applied my passion for data visualization to an analysis of AirBnB's listings for San Francisco. 
 					</p>
 					<p className="about-info-paragraph">
-						I am currently looking for a Junior Developer position where I can apply my programming skills to any and all problems that can be thrown at me.
+						I am currently looking for a Software Developer position where I can apply my programming skills to any and all problems that can be thrown at me.
 					</p>
 					<content className="contact-link-container">
 						<span className="contact-title">Let's work together</span>
 						<div className="link-group">
 							<a className="contact-link" href="https://github.com/alexandersmanning" target="_blank" >
 								<img className="contact-image" src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1481004816/github-logo_avulo9.png" alt="Github"/>
+							</a>
+							<a className="contact-link" href="http://www.alexandersmanning.com/resume.pdf" target="_blank" >
+								<img className="contact-image" src="https://res.cloudinary.com/ddvdi1pie/image/upload/c_scale,w_64/v1484846406/resume-icon-png-10_xpjtpf.png" alt="Resume"/>
 							</a>
 							<a className="contact-link" href="https://angel.co/alexandersmanning" target="_blank" >
 								<img className="contact-image" src="https://res.cloudinary.com/ddvdi1pie/image/upload/c_scale,w_64/v1481006209/69-angellist-128_hai6eu.png" alt="Angel List"/>
