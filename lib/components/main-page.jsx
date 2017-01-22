@@ -25,12 +25,13 @@ const MainPage = () => {
 						Found Sounds
 					</span>
 					<span className="front-project-description">
-						find local Bay Area concerts
+						find local Bay Area concerts<br />
+						(React.js, Redux, Ruby on Rails, PostgreSQL, Heroku)
 					</span>
 				</div>
 			</a>
 			<a className="project-content airdng"
-				href="http://www.alexandersmanning.com/AirDnG" target="_blank">
+				href="http://www.airdng.info" target="_blank">
 				 <img className="project-image" 
 									src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1483473944/network_4_n1uyey.png"
 						/>
@@ -39,7 +40,8 @@ const MainPage = () => {
 						AirDnG
 					</span>
 					<span className="front-project-description dark">
-						metrics for AirBnB listings
+						metrics for AirBnB listings<br />
+						(D3, React.js, Redux, Express.js, MongoDB, AWS)
 					</span>
 				</div>
 			</a>
@@ -53,7 +55,8 @@ const MainPage = () => {
 						Read More + React
 					</span>
 					<span className="front-project-description dark">
-						NPM package to intelligenty truncate text
+						npm package to intelligenty truncate text<br />
+						(React.js)
 					</span>
 				</div>
 			</a>
@@ -66,7 +69,8 @@ const MainPage = () => {
 						Katamari
 					</span>
 					<span className="front-project-description">
-						a calming, yet challenging, browser game
+						a calming, yet challenging, browser game<br />
+						(jQuery, Howler.js, Easel.js)
 					</span>
 				</div>
 			</a>

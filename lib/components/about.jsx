@@ -21,7 +21,7 @@ const AboutPage = () => {
 						After 6 years of analyzing manufacturing data and managing numerous internal development projects, I realized I wanted to be on the other side of the conversation and create my own applications. Over the past year I have studied on my own and attended full time courses to make this dream a reality.
 					</p>
 					<p className="about-info-paragraph">
-						As a developer I have worked on projects that touch on subjects I care deeply about, including music and statistics. Through <a href="http://www.foundsounds.live">Found Sounds</a>, I created an application where users could easily find upcoming concerts near them. Katamari provides an ever changing audiovisual experience, where ambient sounds are randomized through the collision of the balls. Finally, in <a href="http://www.alexandersmanning.com/AirDnG/">AirDnG</a>, I applied my passion for data visualization to an analysis of AirBnB's listings for San Francisco. 
+						As a developer I have worked on projects that touch on subjects I care deeply about, including music and statistics. Through <a href="http://www.foundsounds.live">Found Sounds</a>, I created an application where users could easily find upcoming concerts near them. Katamari provides an ever changing audiovisual experience, where ambient sounds are randomized through the collision of the balls. Finally, in <a href="http://www.airdng.info">AirDnG</a>, I applied my passion for data visualization to an analysis of AirBnB's listings for San Francisco. 
 					</p>
 					<p className="about-info-paragraph">
 						I am currently looking for a Software Developer position where I can apply my programming skills to any and all problems that can be thrown at me.
