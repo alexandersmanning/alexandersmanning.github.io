@@ -31,7 +31,7 @@ const MainPage = () => {
 				</div>
 			</a>
 			<a className="project-content airdng"
-				href="http://www.airdng.info" target="_blank">
+				href="https://www.alexandersmanning.com/AirDnG" target="_blank">
 				 <img className="project-image" 
 									src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1483473944/network_4_n1uyey.png"
 						/>
@@ -60,7 +60,7 @@ const MainPage = () => {
 					</span>
 				</div>
 			</a>
-			<a className="project-content katamari" href="http://www.alexandersmanning.com/katamari" target="_blank">
+			<a className="project-content katamari" href="https://www.alexandersmanning.com/katamari" target="_blank">
 				 <img className="project-image" 
 									src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1480902753/moon_1_o9pq01.png"
 						/>
