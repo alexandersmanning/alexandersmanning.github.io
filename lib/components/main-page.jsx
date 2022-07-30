@@ -12,24 +12,10 @@ const MainPage = () => {
 	<content className="main-page">
 		<section className="title-blurb">
 			<span className="blurb">
-			— Alex Manning is a web developer, engineer, and live music enthusiast living in the Bay Area
+			— Alex Manning is a web developer, dad, and live music enthusiast living in the Bay Area
 			</span>
 		</section>
 		<content className="main-content">
-			<a className="project-content found-sounds" href="http://www.foundsounds.live" target="_blank">
-				 <img className="project-image" 
-									src="https://res.cloudinary.com/ddvdi1pie/image/upload/v1480899229/cassette_1_a0nwcj.png"
-						/>
-				<div className="project-overlay">
-					<span className="project-name">
-						Found Sounds
-					</span>
-					<span className="front-project-description">
-						find local Bay Area concerts<br />
-						(React.js, Redux, Ruby on Rails, PostgreSQL, Heroku)
-					</span>
-				</div>
-			</a>
 			<a className="project-content airdng"
 				href="https://www.alexandersmanning.com/AirDnG" target="_blank">
 				 <img className="project-image" 
