@@ -15,7 +15,7 @@ const AboutPage = () => {
 				<content className="main-content-about">
 					<h2 className="name-title">Alex Manning</h2>
 					<p className="about-info-paragraph">
-                                            I am a Tech Lead, at <a href="https://block.xyz">Block</a>, living in the Bay Area. I a strong history of building products from scratch, and a passion for all things Web.
+                                            I am a Tech Lead, at <a href="https://block.xyz">Block</a>, living in the Bay Area. I have a strong history of building products from scratch, and a passion for all things Web.
 					</p> 
 					<p className="about-info-paragraph">
                                           When I am not programming, I am playing with my son, collecting records, reading whatever fiction I can get my hands on, following baseball, and probably watching a bit too much Netflix.

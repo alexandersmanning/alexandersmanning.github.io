@@ -1,23 +1,30 @@
+const path = require('path');
+
 module.exports = {
   context: __dirname,
   entry: "./lib/main.js",
   output: {
-    path: "./lib/",
+    path: path.resolve(__dirname, 'lib'),
     filename: "bundle.js"
   },
-    module: {
-    loaders: [
+  module: {
+    rules: [
       {
         test: [/\.js?$/, /\.jsx?$/],
         exclude: /(node_modules)/,
-        loader: 'babel',
-        query: {
-          presets: ['react', 'es2015']
-        },
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: [
+               '@babel/preset-react'
+              ]
+            }
+          }
+        ]
       }
     ]
   },
-  devtool: 'source-map',
   resolve: {
     extensions: ['', '.js', '.jsx']
   }

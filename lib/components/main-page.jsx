@@ -2,17 +2,11 @@ import React from 'react';
 
 const MainPage = () => {
 
-	const outsidePage = (link) => {
-		debugger
-		window.location.assign(link)
-	}
-
-
 	return (
 	<content className="main-page">
 		<section className="title-blurb">
 			<span className="blurb">
-			— Alex Manning is a web developer, dad, and live music enthusiast living in the Bay Area
+			Alex Manning is a web developer, dad, and live music enthusiast, living in the Bay Area
 			</span>
 		</section>
 		<content className="main-content">
